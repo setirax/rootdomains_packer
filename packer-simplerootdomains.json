@@ -7,7 +7,7 @@
       "aws_vpc_id":   "{{env `aws_vpc_id`}}",
       "aws_subnet":   "{{env `aws_subnet`}}",
       "aws_instance_profile":   "{{env `aws_instance_profile`}}",
-      "shortname": "{{env `shortname`}}"
+      "shortname": "redirect"
     },
     "builders": [{
       "type": "amazon-ebs",
