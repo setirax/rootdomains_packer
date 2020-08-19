@@ -54,20 +54,11 @@
         {
           "type": "file",
           "destination": "nginx.conf",
-          "source": "./conf/nginx.conf"
+          "source": "redirect/conf/redirect-nginx.conf"
         },
         {
           "type": "shell",
           "inline": ["sudo mv nginx.conf /etc/nginx/nginx.conf"]
-        },
-        {
-            "type": "file",
-            "destination": "redirect-nginx.conf",
-            "source": "./conf/redirect-nginx.conf"
-        },
-        {
-            "type": "shell",
-            "inline": ["sudo mv redirect-nginx.conf /etc/nginx/redirect-nginx.conf"]
         },
         {
           "type": "shell",
